@@ -10,10 +10,10 @@ Output:
 */
 
 let numbers = ['Tom','Tim','Tin','Tik'];
-let newWrod;
-
-
-for(let word of numbers){
-    newWrod =  word.concat(word);
+let result =[];
+for(let newString of numbers){
+   // result = result+newString;
+   result += newString;
 }
-console.log(newWrod);
+
+console.log(result);
